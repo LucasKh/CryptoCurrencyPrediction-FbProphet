@@ -75,4 +75,15 @@ Now it’s also a good practice to show the exact dates as well since that’s n
 
 ![Screenshot 2022-03-03 11 35 12](https://user-images.githubusercontent.com/88887839/156537505-73f39a54-7e20-4355-b564-09b6e1fc7ee3.png)
 
+# Adjusting Trends: 
+Trend adjustment helps prevent under fitting and overfitting, it allows for the adjustment of the strength of the trend. Changepoint_prior_scale is an input argument that is set to 0.05 by default, and increasing it would increase the flexibility. In this project it’s been set to 0.08 for increased flexibility. Trend adjustment increases the accuracy of the actual yield in retrospect to the historical yield. If the flexibility is higher than needed, then trend changes might over fit and the opposite is true where if the flexibility is low then trends changes might under fit. Below is a comparison between a high flexibility and a low one: 
 
+## High Flexibility:
+
+![Screenshot (123)](https://user-images.githubusercontent.com/88887839/156537929-66da87c9-c781-4be0-8446-1a9428df81e1.png)
+
+## Low Flexibility:
+
+![Screenshot (124)](https://user-images.githubusercontent.com/88887839/156538032-46b080b6-4682-48c9-9327-8c127b20c54f.png)
+
+### A detailed explanation of the project is found in the report. 
