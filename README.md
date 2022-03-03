@@ -52,11 +52,27 @@ The output would be:
 
 ![Screenshot (116)](https://user-images.githubusercontent.com/88887839/156535989-d6b6d9b3-35fb-4135-8438-ea3e6f1ab328.png)
 
-# Observation: 
+## Observation: 
 * The black dots represent the observed value of the time series.
 * The blue line represents the forecasted values.
 * The uncertainty intervals of the forecasts are the blue shaded region.
 
-Components of the prediction is one of Prophet's capabilities, and it can be used to demonstrate 
-how daily, weekly, and annual patterns of the time series contribute to the overall forecasted 
-values. 
+Components of the prediction is one of Prophet's capabilities, and it can be used to demonstrate how daily, weekly, and annual patterns of the time series contribute to the overall forecasted values. 
+
+![Screenshot (118)](https://user-images.githubusercontent.com/88887839/156536775-4b67c477-bd70-4f7a-a71d-370c54266bc2.png)
+
+## Observation:
+* The first plot shows that the trend of coin price that simulates non-periodic variations in time series data and how its linearly increasing over time. 
+* The second plot highlights the fact that the weekly price of the coin peaks towards the end of the week and on Saturday. and go down on Tuesday and Thursday.
+* The third plot shows that the Highest price occurs between January and May.
+
+# Adding Change Points to prophet:
+Change points in data are points in time when the data drastically changes direction. To emphasize more, real time series have huge shifts in trajectories. By default, Prophet provides 25 potential change points that are evenly distributed across the first 80% of the time series. Vertical lines will be used to illustrate the locations of potential change points. Now, the forecasted values are plotted again but with vertical lines drawn across the axis that illustrates the location of potential change points.
+
+Now it’s also a good practice to show the exact dates as well since that’s not shown in the figure. And the figures are illustrated below:
+
+![Screenshot (120)](https://user-images.githubusercontent.com/88887839/156537289-01069ac3-960a-436b-ba25-5ad5a9b99314.png)
+
+![Screenshot 2022-03-03 11 35 12](https://user-images.githubusercontent.com/88887839/156537505-73f39a54-7e20-4355-b564-09b6e1fc7ee3.png)
+
+
