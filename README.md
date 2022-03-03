@@ -18,4 +18,12 @@ Now checking the columns of the dataset after the implementation of reset_index 
 
 ![Screenshot (117)](https://user-images.githubusercontent.com/88887839/156533411-ef882139-a8a0-4794-ae3c-0f5f643b16e3.png)
 
+It appears that data column is in the list of indexed columns. 
+
+# Visulization of the dataset: 
+Visualizing the data would be considered a good practice to check and compare between the opening and closing of a certain bitcoin in terms of time. The below figure is plotted using the pyplot library.
+A zoomed out version that shows the fluctutations over the years.
+
+
+
 
