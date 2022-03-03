@@ -14,4 +14,8 @@ A code snippet of this function is shown below:
 ![Screenshot (106)](https://user-images.githubusercontent.com/88887839/156532270-7dc1b395-0811-4237-be4d-b88fa3507d4f.png)
 
 # DataSet Columns:
+Now checking the columns of the dataset after the implementation of reset_index method:
+
+![Screenshot (117)](https://user-images.githubusercontent.com/88887839/156533411-ef882139-a8a0-4794-ae3c-0f5f643b16e3.png)
+
 
