@@ -10,4 +10,5 @@ In the above figure the user chose bitcoin as an alt coin to start his predictio
 Now, to load the dataset a function load_data passing to it a positional argument is created. Then a variable called data is declared and is initialized to the datasets that are found in yfinance package where all the needed alt coins that were used in this project are found in this package. Moreover, the date column is needed for the prophet model, so to make sure it’s one of the columns that is listed we did reset our indexes so surely the Date will be now from the columns. The good part about stream lit library is the caching mechanism it possesses. Since manipulation of large datasets is done here and loading of data from web so a number of huge computations is performed. So, to preserve the performance a decorator @st.cahce is used.
 
 A code snippet of this function is shown below:
+
 ![Screenshot (106)](https://user-images.githubusercontent.com/88887839/156532270-7dc1b395-0811-4237-be4d-b88fa3507d4f.png)
