@@ -31,10 +31,25 @@ A zoomed in version that shows the fluctuations over the months:
 
 ![Screenshot (109)](https://user-images.githubusercontent.com/88887839/156534278-066ab8af-e049-43fb-b7fc-dc030d2841ab.png)
 
+And finally a more zoomed in figure over the recent days:
 
+![Screenshot (110)](https://user-images.githubusercontent.com/88887839/156534747-002f0ec8-07d3-4826-82ae-040104e48536.png)
 
+# Preparing the Prophet Model: 
+The prophet has some limitations where it requires only to have 2 columns and in this case: the date and the close columns are the 2 columns needed. So, these 2 columns will be collected and put in a new data frame and the rename function is used to change the name of the columns following the correct name conventions. Again the .tail method is used to check the new data.
 
+![Screenshot (111)](https://user-images.githubusercontent.com/88887839/156534860-67a1e4e8-9ccc-4f92-8004-c4fea7623365.png)
 
+# Prophet Model
 
+To forecast the values of the time series data in the future the prophet library should be applied now. A new Prophet object called m, a lot of arguments can be specified using prophet but the interval_width is used here that follows the concepts of confidence interval which is a set of estimates for an unknown parameter that's defined as an interval with a bottom and upper bound. The 95% confidence level is most common so 0.95 is used for the interval width. After the Prophet model has been used, fit method with the new data frame as input is being utilized. To get forecasts for this time series, the prophet shall have a new data frame with a ds column containing the dates. Prophet has a handy method called make future data frame which is a helper functions that completes the job. A period is passed which refers to the timestamp where in this case the number of years chosen by the user will be multiplied b 365 days so the make_future_dataframe will generate daily timestamps based on the user choice of prediction. The data frame with future dates is subsequently passed to the fitted model's forecast method.
+
+The output would be: 
+
+![Screenshot (115)](https://user-images.githubusercontent.com/88887839/156535478-74a9c9ea-3e5f-4b31-908f-4d0fe04cbc41.png)
+
+# Prophet Plots: 
+
+![Screenshot (116)](https://user-images.githubusercontent.com/88887839/156535989-d6b6d9b3-35fb-4135-8438-ea3e6f1ab328.png)
 
 
