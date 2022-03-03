@@ -22,7 +22,18 @@ It appears that data column is in the list of indexed columns.
 
 # Visulization of the dataset: 
 Visualizing the data would be considered a good practice to check and compare between the opening and closing of a certain bitcoin in terms of time. The below figure is plotted using the pyplot library.
+
 A zoomed out version that shows the fluctutations over the years.
+
+![Screenshot (108)](https://user-images.githubusercontent.com/88887839/156534045-7b06a346-a949-44ac-b589-4e5d857fa827.png)
+
+A zoomed in version that shows the fluctuations over the months:
+
+![Screenshot (109)](https://user-images.githubusercontent.com/88887839/156534278-066ab8af-e049-43fb-b7fc-dc030d2841ab.png)
+
+
+
+
 
 
 
