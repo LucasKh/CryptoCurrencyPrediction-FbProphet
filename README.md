@@ -52,4 +52,11 @@ The output would be:
 
 ![Screenshot (116)](https://user-images.githubusercontent.com/88887839/156535989-d6b6d9b3-35fb-4135-8438-ea3e6f1ab328.png)
 
+# Observation: 
+* The black dots represent the observed value of the time series.
+* The blue line represents the forecasted values.
+* The uncertainty intervals of the forecasts are the blue shaded region.
 
+Components of the prediction is one of Prophet's capabilities, and it can be used to demonstrate 
+how daily, weekly, and annual patterns of the time series contribute to the overall forecasted 
+values. 
