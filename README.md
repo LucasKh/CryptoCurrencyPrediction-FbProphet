@@ -12,3 +12,6 @@ Now, to load the dataset a function load_data passing to it a positional argumen
 A code snippet of this function is shown below:
 
 ![Screenshot (106)](https://user-images.githubusercontent.com/88887839/156532270-7dc1b395-0811-4237-be4d-b88fa3507d4f.png)
+
+# DataSet Columns:
+
